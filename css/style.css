@@ -1974,6 +1974,13 @@ footer .copyright {
 }
 
 @media screen and (max-width: 900px) {
+  .bottom-privacy-policy .container .text span {
+    font-weight: 600;
+    font-family: "hiragino5", sans-serif;
+  }
+}
+
+@media screen and (max-width: 900px) {
   .bottom-recruit .container {
     padding: 0 20px;
   }

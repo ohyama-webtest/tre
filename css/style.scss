@@ -1725,6 +1725,11 @@ footer {
       span {
         font-weight: bold;
         font-family: "hiragino7", sans-serif;
+        
+        @include mq(tab) {
+          font-weight: 600;
+          font-family: "hiragino5", sans-serif;
+        }
       }
     }
   } // container
