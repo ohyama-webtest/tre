@@ -242,6 +242,8 @@ img {
         padding-left: 0;
         transform: translateX(19vw);
         font-size: 2.93vw;
+        font-family: "hiragino5", sans-serif;
+        font-weight: 500;
       }
       @include mq(sp) {
         transform: translateX(15vw);
