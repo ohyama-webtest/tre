@@ -1690,6 +1690,10 @@ footer {
         @include mq(tab) {
           padding: 0 0.66vw !important;
         }
+        @include mq(sp) {
+          font-family: "hiragino4", sans-serif;
+          font-weight: 400;
+        }
       }
     } // bottom-section-titie
 
@@ -1708,6 +1712,11 @@ footer {
       span {
         font-weight: bold;
         font-family: "hiragino7", sans-serif;
+
+        @include mq(sp) {
+          font-family: "hiragino4", sans-serif;
+          font-weight: 400;
+        }
       }
     }
   } // container
