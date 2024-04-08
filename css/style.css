@@ -88,6 +88,13 @@ body {
 }
 
 @media screen and (max-width: 750px) {
+  body {
+    font-family: "hiragino5", sans-serif;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 750px) {
   .sp-fw500 {
     font-family: "hiragino5", sans-serif !important;
     font-weight: 500 !important;
