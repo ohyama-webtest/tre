@@ -88,7 +88,7 @@ body {
 
 @media screen and (max-width: 750px) {
   body {
-    font-family: "hiragino4", sans-serif !important;
+    font-family: "hiragino4", sans-serif;
     font-weight: 400;
   }
 }
@@ -1918,13 +1918,6 @@ footer .copyright {
   }
 }
 
-@media screen and (max-width: 750px) {
-  .bottom-privacy-policy .container .bottom-section-title {
-    font-family: "hiragino4", sans-serif !important;
-    font-weight: 400 !important;
-  }
-}
-
 @media screen and (max-width: 900px) {
   .bottom-privacy-policy .container .bottom-section-title h2 {
     padding: 0 0.66vw !important;
@@ -1933,8 +1926,8 @@ footer .copyright {
 
 @media screen and (max-width: 750px) {
   .bottom-privacy-policy .container .bottom-section-title h2 {
-    font-family: "hiragino4", sans-serif;
-    font-weight: 400;
+    font-family: "hiragino5", sans-serif;
+    font-weight: 500;
   }
 }
 

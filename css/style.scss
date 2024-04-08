@@ -101,7 +101,7 @@ body {
   font-family: "hiragino6", sans-serif;
 
   @include mq(sp) {
-    font-family: "hiragino4", sans-serif !important;
+    font-family: "hiragino4", sans-serif;
     font-weight: 400;
   }
 }
@@ -1682,17 +1682,13 @@ footer {
       @include mq(tab) {
         margin-top: 7.12vw;
       }
-      @include mq(sp) {
-        font-family: "hiragino4", sans-serif !important;
-        font-weight: 400 !important;
-      }
       h2 {
         @include mq(tab) {
           padding: 0 0.66vw !important;
         }
         @include mq(sp) {
-          font-family: "hiragino4", sans-serif;
-          font-weight: 400;
+          font-family: "hiragino5", sans-serif;
+          font-weight: 500;
         }
       }
     } // bottom-section-titie
