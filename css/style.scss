@@ -52,11 +52,11 @@ $number6: #662d91;
 
 .hiragino4 {
   font-family: "hiragino4", sans-serif;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 .hiragino5 {
-  font-family: "hiragino5", sans-serif;
-  font-weight: 500;
+  font-family: "hiragino5", sans-serif !important;
+  font-weight: 500 !important;
 }
 .hiragino6 {
   font-family: "hiragino6", sans-serif !important;
@@ -99,7 +99,7 @@ $number6: #662d91;
 
 body {
   font-family: "hiragino6", sans-serif;
-  
+
   @include mq(sp) {
     font-family: "hiragino4", sans-serif;
     font-weight: 400;
@@ -1561,7 +1561,7 @@ footer {
       width: 100%;
     }
     @include mq(sp) {
-      font-weight: 500;
+      // font-weight: 500;
     }
 
     span {
@@ -1681,6 +1681,10 @@ footer {
 
       @include mq(tab) {
         margin-top: 7.12vw;
+      }
+      @include mq(sp) {
+        font-family: "hiragino5", sans-serif !important;
+        font-weight: 500 !important;
       }
       h2 {
         @include mq(tab) {

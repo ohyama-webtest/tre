@@ -31,12 +31,12 @@
 
 .hiragino4 {
   font-family: "hiragino4", sans-serif;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 .hiragino5 {
-  font-family: "hiragino5", sans-serif;
-  font-weight: 500;
+  font-family: "hiragino5", sans-serif !important;
+  font-weight: 500 !important;
 }
 
 .hiragino6 {
@@ -1783,12 +1783,6 @@ footer ul {
   }
 }
 
-@media screen and (max-width: 750px) {
-  footer ul {
-    font-weight: 500;
-  }
-}
-
 footer ul span {
   color: #27aa4f;
   font-weight: bold;
@@ -1921,6 +1915,13 @@ footer .copyright {
 @media screen and (max-width: 900px) {
   .bottom-privacy-policy .container .bottom-section-title {
     margin-top: 7.12vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .bottom-privacy-policy .container .bottom-section-title {
+    font-family: "hiragino5", sans-serif !important;
+    font-weight: 500 !important;
   }
 }
 
