@@ -101,7 +101,8 @@ body {
   font-family: "hiragino6", sans-serif;
   
   @include mq(sp) {
-    font-family: "hiragino5", sans-serif;
+    font-family: "hiragino4", sans-serif;
+    font-weight: 400;
   }
 }
 
