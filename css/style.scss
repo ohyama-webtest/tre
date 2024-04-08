@@ -99,10 +99,11 @@ $number6: #662d91;
 
 body {
   font-family: "hiragino6", sans-serif;
+  font-weight: 600;
 
   @include mq(sp) {
-    font-family: "hiragino4", sans-serif;
-    font-weight: 400;
+    font-family: "hiragino4", sans-serif !important;
+    font-weight: 400 !important;
   }
 }
 
