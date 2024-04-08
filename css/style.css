@@ -30,18 +30,18 @@
 }
 
 .hiragino4 {
-  font-family: "hiragino4", sans-serif;
-  font-weight: 400;
+  font-family: "hiragino4", sans-serif !important;
+  font-weight: 400 !important;
 }
 
 .hiragino5 {
-  font-family: "hiragino5", sans-serif;
-  font-weight: 500;
+  font-family: "hiragino5", sans-serif !important;
+  font-weight: 500 !important;
 }
 
 .hiragino6 {
-  font-family: "hiragino6", sans-serif;
-  font-weight: 600;
+  font-family: "hiragino6", sans-serif !important;
+  font-weight: 600 !important;
 }
 
 .hiragino7 {
@@ -88,9 +88,16 @@ body {
 }
 
 @media screen and (max-width: 750px) {
-  body {
-    font-family: "hiragino4", sans-serif !important;
-    font-weight: 400 !important;
+  .sp-fw500 {
+    font-family: "hiragino5", sans-serif !important;
+    font-weight: 500 !important;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .sp-fw400 {
+    font-family: "hiragino5", sans-serif !important;
+    font-weight: 500 !important;
   }
 }
 
@@ -270,8 +277,6 @@ img {
     padding-left: 0;
     transform: translateX(19vw);
     font-size: 2.93vw;
-    font-family: "hiragino4", sans-serif;
-    font-weight: 400;
   }
 }
 
@@ -1025,6 +1030,8 @@ header .header-bottom .container .left-text {
 @media screen and (max-width: 750px) {
   header .header-bottom .container .left-text {
     font-size: 14px;
+    font-family: "hiragino4", sans-serif !important;
+    font-weight: 400 !important;
   }
 }
 
@@ -1037,12 +1044,15 @@ header .header-bottom .container .left-text span {
 @media screen and (max-width: 1130px) {
   header .header-bottom .container .left-text span {
     font-size: 18px;
+    font-weight: 400;
   }
 }
 
 @media screen and (max-width: 750px) {
   header .header-bottom .container .left-text span {
     font-size: 14px;
+    font-family: "hiragino4", sans-serif !important;
+    font-weight: 400 !important;
   }
 }
 
@@ -1118,6 +1128,13 @@ header .header-bottom .container .right-text .tel-fax a {
     margin-left: 0;
     gap: 0;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .sp-nav-menu ul {
+    font-family: "hiragino5", sans-serif !important;
+    font-weight: 500 !important;
   }
 }
 
@@ -1927,13 +1944,6 @@ footer .copyright {
   }
 }
 
-@media screen and (max-width: 750px) {
-  .bottom-privacy-policy .container .bottom-section-title h2 {
-    font-family: "hiragino6", sans-serif;
-    font-weight: 600;
-  }
-}
-
 .bottom-privacy-policy .container .text {
   max-width: 950px;
   margin: auto;
@@ -1952,13 +1962,6 @@ footer .copyright {
 .bottom-privacy-policy .container .text span {
   font-weight: bold;
   font-family: "hiragino7", sans-serif;
-}
-
-@media screen and (max-width: 750px) {
-  .bottom-privacy-policy .container .text span {
-    font-family: "hiragino4", sans-serif;
-    font-weight: 400;
-  }
 }
 
 @media screen and (max-width: 900px) {

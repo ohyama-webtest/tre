@@ -51,16 +51,16 @@ $number6: #662d91;
 }
 
 .hiragino4 {
-  font-family: "hiragino4", sans-serif;
-  font-weight: 400;
+  font-family: "hiragino4", sans-serif !important;
+  font-weight: 400 !important;
 }
 .hiragino5 {
-  font-family: "hiragino5", sans-serif;
-  font-weight: 500;
+  font-family: "hiragino5", sans-serif !important;
+  font-weight: 500 !important;
 }
 .hiragino6 {
-  font-family: "hiragino6", sans-serif;
-  font-weight: 600;
+  font-family: "hiragino6", sans-serif !important;
+  font-weight: 600 !important;
 }
 .hiragino7 {
   font-family: "hiragino7", sans-serif;
@@ -100,10 +100,18 @@ $number6: #662d91;
 body {
   font-family: "hiragino6", sans-serif;
   font-weight: 600;
+}
 
+.sp-fw500 {
   @include mq(sp) {
-    font-family: "hiragino4", sans-serif !important;
-    font-weight: 400 !important;
+    font-family: "hiragino5", sans-serif !important;
+    font-weight: 500 !important;
+  }
+}
+.sp-fw400 {
+  @include mq(sp) {
+    font-family: "hiragino5", sans-serif !important;
+    font-weight: 500 !important;
   }
 }
 
@@ -248,8 +256,6 @@ img {
         padding-left: 0;
         transform: translateX(19vw);
         font-size: 2.93vw;
-        font-family: "hiragino4", sans-serif;
-        font-weight: 400;
       }
       @include mq(sp) {
         transform: translateX(15vw);
@@ -912,6 +918,8 @@ header {
         }
         @include mq(sp) {
           font-size: 14px;
+          font-family: "hiragino4", sans-serif !important;
+          font-weight: 400 !important;
         }
 
         span {
@@ -921,10 +929,12 @@ header {
 
           @include mq(header) {
             font-size: 18px;
-            // font-weight: 400;
+            font-weight: 400;
           }
           @include mq(sp) {
             font-size: 14px;
+            font-family: "hiragino4", sans-serif !important;
+            font-weight: 400 !important;
           }
         }
       } // left-text
@@ -993,6 +1003,10 @@ header {
       margin-left: 0;
       gap: 0;
       width: 100%;
+    }
+    @include mq(sp) {
+      font-family: "hiragino5", sans-serif !important;
+      font-weight: 500 !important;
     }
 
     span {
@@ -1563,9 +1577,6 @@ footer {
       gap: 0;
       width: 100%;
     }
-    @include mq(sp) {
-      // font-weight: 500;
-    }
 
     span {
       color: #27aa4f;
@@ -1689,10 +1700,6 @@ footer {
         @include mq(tab) {
           padding: 0 0.66vw !important;
         }
-        @include mq(sp) {
-          font-family: "hiragino6", sans-serif;
-          font-weight: 600;
-        }
       }
     } // bottom-section-titie
 
@@ -1711,11 +1718,6 @@ footer {
       span {
         font-weight: bold;
         font-family: "hiragino7", sans-serif;
-
-        @include mq(sp) {
-          font-family: "hiragino4", sans-serif;
-          font-weight: 400;
-        }
       }
     }
   } // container
