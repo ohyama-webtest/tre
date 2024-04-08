@@ -918,7 +918,7 @@ header {
 
           @include mq(header) {
             font-size: 18px;
-            font-weight: 400;
+            // font-weight: 400;
           }
           @include mq(sp) {
             font-size: 14px;
