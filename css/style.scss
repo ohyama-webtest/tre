@@ -1727,8 +1727,8 @@ footer {
         font-family: "hiragino7", sans-serif;
         
         @include mq(tab) {
-          font-weight: 600;
-          font-family: "hiragino5", sans-serif;
+          font-weight: 500 !important;
+          font-family: "hiragino5", sans-serif !important;
         }
       }
     }
