@@ -1920,8 +1920,8 @@ footer .copyright {
 
 @media screen and (max-width: 750px) {
   .bottom-privacy-policy .container .bottom-section-title {
-    font-family: "hiragino5", sans-serif !important;
-    font-weight: 500 !important;
+    font-family: "hiragino4", sans-serif !important;
+    font-weight: 400 !important;
   }
 }
 
