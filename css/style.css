@@ -86,6 +86,12 @@ body {
   font-family: "hiragino6", sans-serif;
 }
 
+@media screen and (max-width: 750px) {
+  body {
+    font-family: "hiragino5", sans-serif;
+  }
+}
+
 .container {
   max-width: 1120px;
   max-width: 1080px;
