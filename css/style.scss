@@ -1560,6 +1560,9 @@ footer {
       gap: 0;
       width: 100%;
     }
+    @include mq(sp) {
+      font-weight: 500;
+    }
 
     span {
       color: #27aa4f;

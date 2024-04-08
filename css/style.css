@@ -1784,6 +1784,12 @@ footer ul {
   }
 }
 
+@media screen and (max-width: 750px) {
+  footer ul {
+    font-weight: 500;
+  }
+}
+
 footer ul span {
   color: #27aa4f;
   font-weight: bold;
