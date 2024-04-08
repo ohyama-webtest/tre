@@ -110,8 +110,8 @@ body {
 }
 .sp-fw400 {
   @include mq(sp) {
-    font-family: "hiragino5", sans-serif !important;
-    font-weight: 500 !important;
+    font-family: "hiragino4", sans-serif !important;
+    font-weight: 400 !important;
   }
 }
 
@@ -260,6 +260,8 @@ img {
       @include mq(sp) {
         transform: translateX(15vw);
         transform: translateX(17vw);
+        font-family: "hiragino5", sans-serif !important;
+        font-weight: 500 !important;
       }
     }
   } // container

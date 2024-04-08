@@ -96,8 +96,8 @@ body {
 
 @media screen and (max-width: 750px) {
   .sp-fw400 {
-    font-family: "hiragino5", sans-serif !important;
-    font-weight: 500 !important;
+    font-family: "hiragino4", sans-serif !important;
+    font-weight: 400 !important;
   }
 }
 
@@ -284,6 +284,8 @@ img {
   .section-title .container .lead {
     transform: translateX(15vw);
     transform: translateX(17vw);
+    font-family: "hiragino5", sans-serif !important;
+    font-weight: 500 !important;
   }
 }
 
