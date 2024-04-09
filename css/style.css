@@ -2036,8 +2036,8 @@ footer .copyright {
 
 @media screen and (max-width: 900px) {
   .bottom-privacy-policy .container .text span {
-    font-weight: 400 !important;
-    font-family: "hiragino4", sans-serif !important;
+    font-weight: 500 !important;
+    font-family: "hiragino5", sans-serif !important;
     color: #000;
   }
 }
