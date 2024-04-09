@@ -1974,6 +1974,7 @@ footer .copyright {
     font-size: 2.4vw;
     line-height: 1.7;
     color: #444;
+    font-family: "hiragino4", sans-serif !important;
   }
 }
 
@@ -1984,8 +1985,8 @@ footer .copyright {
 
 @media screen and (max-width: 900px) {
   .bottom-privacy-policy .container .text span {
-    font-weight: 700 !important;
-    font-family: "hiragino5", sans-serif !important;
+    font-weight: 600 !important;
+    font-family: "hiragino6", sans-serif !important;
     color: #000;
   }
 }
