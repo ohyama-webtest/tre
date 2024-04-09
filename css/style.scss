@@ -107,6 +107,12 @@ body {
   }
 }
 
+.sp-fw600 {
+  @include mq(sp) {
+    font-family: "hiragino6", sans-serif !important;
+    font-weight: 600 !important;
+  }
+}
 .sp-fw500 {
   @include mq(sp) {
     font-family: "hiragino5", sans-serif !important;
